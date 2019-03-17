@@ -1,6 +1,7 @@
 
-## Book Cover Text Processing
-University of Washington Data Science Masters Capstone Project
+# Book Cover Text Processing
+## Contributors : Vamsy Atluri, Ryan Bald, Sayli Dighde and Srinivas Kondepudi
+### A University of Washington Data Science Masters Capstone Project
 
 ### Requirements
 
