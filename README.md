@@ -18,7 +18,7 @@
 * beautifulsoup4==4.7.1
 * scikit_learn==0.20.3
 
-For convenience these have also been listed in the 'requirements.txt' file which can be used to [install the packages directly](https://pip.pypa.io/en/stable/user_guide/).
+For convenience these have also been listed in the 'requirements.txt' file. These can be installed directly using ```pip install -r requirements.txt```.
 
 ### Project Motivation
 
