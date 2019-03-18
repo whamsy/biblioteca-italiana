@@ -1,4 +1,4 @@
-The various data we used in this project have been classified as follows:
+## This folder includes all the sample data we have used throughout our pipeline as an example.
 
 1. cover_images : To present the workflow of our project, we used two demo book title images which are stored in this folder.
 2. extracted_characters : The characters extracted from the images above are stored in this folder, with one subfolder for each image.
