@@ -61,17 +61,27 @@ There were so many different techniques we used over the course of this project,
 
 ### Instructions to Reproduce Results
 
-This section is a general outline on how to execute the text processing pipeline. More detailed instructions and explanations are included as comments in each individual notebook.
+This section is a general outline on how to execute the text processing pipeline. While we have made every effort to keep the repo completely reproducible, due to the modularity of the code, you are free to execute them in your own environment. These intructions are a guide on the primary parameters you may want to change in this case.
+
+More detailed instructions and explanations are included as comments in each individual notebook.
 
 1. **NOTEBOOK 3**
     * Change the source image path.
     * Change the destination folder path.
     * Run all cells (-- we have included two demos in this notebook, running the set of commands once is sufficient).
     * Characters from the image will be extracted to the folder specified.
-2. **NOTEBOOK 4**
-    * Change the source to the folder 
-    * and destination directory paths in notebook 4 and execute. -------EDIT---This will generate the output of predicted letters by line in the chosen folder.--------
-3. Change the source file path and destination folder path for module 5. This will generate the output of predicted words as a '.txt' file in the chosen folder. This is the final output.
+2. **NOTEBOOK 4A**
+    * Change the source folder if you wish to retrain the model. 
+3. **NOTEBOOK 4B**
+    *  Change the source folder path to the one with extracted characters
+    * Change the destination directory paths if required and execute. 
+    * Get the output of predicted letters by line in the chosen folder.
+4. **NOTEBOOK 5**
+    * Change the source file path depending on which corpus you wish to use.
+    * Change the source file path for the letters to be segmented.
+    * Run the segmentation.
+    * Change the destination folder path to get the output of predicted words as a '.txt' file in the chosen folder. 
+    * This is the final output.
 
 
 ### Model Pipeline
@@ -88,7 +98,10 @@ While we did not achieve all the targets we set out for and are not completely s
 
 * [Peter Norvig’s NLP guide](https://techdevguide.withgoogle.com/resources/peter-norvigs-statistical-nlp/) 
 * [OpenCV Documentation](https://docs.opencv.org/2.4/modules/refman.html)
-* [Software Carpentry Blogs](https://software-carpentry.org/blog/) 
-* [The Chars74K image dataset](https://docs.opencv.org/3.0-beta/modules/datasets/doc/datasets/tr_chars.html)
+* [Software Carpentry Blogs on Image Processing](https://mmeysenburg.github.io/image-processing/)
+* [Image Processing Overview with OpenCV](https://medium.com/@ariesiitr/image-processing-with-opencv-45c3a5cefd10)
+* [Stanford’s Text Tokenization Tutorial](https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html)
+* [The Chars74K image dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)
 * [The EMNIST Dataset](https://www.nist.gov/itl/iad/image-group/emnist-dataset)
 * [Tensorflow Documentation](https://www.tensorflow.org/api_docs)
+* [The Leipzig Corpora Collection](http://wortschatz.uni-leipzig.de/en)
