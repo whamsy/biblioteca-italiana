@@ -1,7 +1,7 @@
 
 # Book Cover Text Processing
 ## Contributors : Vamsy Atluri, Ryan Bald, Sayli Dighde and Srinivas Kondepudi
-### A University of Washington Data Science Masters Capstone Project
+### University of Washington Data Science Masters Capstone Project - Winter 2019
 
 ### Requirements
 
@@ -18,9 +18,9 @@
 * beautifulsoup4==4.7.1
 * scikit_learn==0.20.3
 
-For convenience these have also been listed in the 'requirements.txt' file which can be used to install the packages directly.
+For convenience these have also been listed in the 'requirements.txt' file which can be used to [install the packages directly](https://pip.pypa.io/en/stable/user_guide/).
 
-### Goal 
+### Project Motivation
 
 Biblioteca Italiana Seattle (BIS), an Italian library in Seattle is missing cover images for some books in its digital catalog. The current process is to manually search and pick the right cover images through photographs of book covers. The aim of our project is to make this process more efficient. 
 
@@ -40,7 +40,7 @@ More specifically, our proposed deliverable is a pipeline that extracts the word
 * A character prediction CNN model predicts the most likely letter for each cropped image.
 * The predicted strings are passed through a word segmentation model to get a list of most likely words.
 
-### Organization of the Code
+### Code Organization in this Repository
 
 There were so many different techniques we used over the course of this project, that we felt the best way to both implement and document them was to use different notebooks for each step instead of putting everything in a single giant notebook or code file. 
 
@@ -66,9 +66,11 @@ This section is a general outline on how to execute the text processing pipeline
 1. **NOTEBOOK 3**
     * Change the source image path.
     * Change the destination folder path.
-    * Run all cells (-- we have included two demos in this notebook, running the set of commands once is sufficient)
+    * Run all cells (-- we have included two demos in this notebook, running the set of commands once is sufficient).
     * Characters from the image will be extracted to the folder specified.
-2. Change the source and destination directory paths in notebook 4 and execute. -------EDIT---This will generate the output of predicted letters by line in the chosen folder.--------
+2. **NOTEBOOK 4**
+    * Change the source to the folder 
+    * and destination directory paths in notebook 4 and execute. -------EDIT---This will generate the output of predicted letters by line in the chosen folder.--------
 3. Change the source file path and destination folder path for module 5. This will generate the output of predicted words as a '.txt' file in the chosen folder. This is the final output.
 
 
