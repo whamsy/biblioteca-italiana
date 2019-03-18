@@ -17,6 +17,9 @@
 * numpy==1.14.3
 * beautifulsoup4==4.7.1
 * scikit_learn==0.20.3
+* scipy==1.1.0
+* Pillow==5.4.1
+* tensorflow==1.13.1
 
 For convenience these have also been listed in the 'requirements.txt' file. These can be installed directly using ```pip install -r requirements.txt```.
 
